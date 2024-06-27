@@ -99,7 +99,7 @@ def compare_reads(ifh, ifh_right) -> None:
 
     except ValueError:
         # If the files are not the same length, we will get a ValueError
-        raise Exception(f"ERROR: Files are not the same length!")
+        raise Exception("ERROR: Files are not the same length!")
 
 
 def main(args: argparse.Namespace) -> None:
